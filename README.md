@@ -1,16 +1,50 @@
-# React + Vite
+# PPT Arena
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Piedra, Papel o Tijera es una aplicación interactiva desarrollada con React y Vite. Permite jugar contra la CPU en una serie de hasta tres puntos y consultar el historial de rondas.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Personalizar el nombre del jugador.
+- Elegir piedra, papel o tijera.
+- Competir contra una selección aleatoria de la CPU.
+- Llevar el marcador de victorias, derrotas y empates.
+- Ganar la serie al alcanzar tres puntos.
+- Consultar el historial de rondas y limpiar el registro.
+- Reiniciar el marcador durante una partida.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- React Router
+- Vite
+- Bootstrap
+- JavaScript
+- CSS
 
-## Expanding the ESLint configuration
+## Ejecución local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Para generar y revisar la versión de producción:
+
+```bash
+npm run lint
+npm run build
+npm run preview
+```
+
+## Rutas
+
+- `/` — Arena de juego.
+- `/historial` — Historial de rondas.
+
+## Aplicación publicada
+
+https://ppt-arena.alexguevara12715.workers.dev/
+
+## Proyecto académico
+
+Desarrollado como proyecto práctico de desarrollo frontend en Kodigo.
